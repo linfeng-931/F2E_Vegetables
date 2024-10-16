@@ -13,7 +13,10 @@ body{
     min-width: 375px;
 }
 .container{
-    padding: 40px 9%;
+    padding: 40px 0;
+    padding-bottom: 0;
+    width: 78%;
+    max-width: 1120px;
 }
 .title{
     color: var(--Primary);
@@ -90,7 +93,7 @@ a h4{
 }
 
 .content-right, .content-left{
-    width: 48%;
+    width: 47%;
     margin:0;
     height: 12.5rem;
     margin-bottom: 2rem;
