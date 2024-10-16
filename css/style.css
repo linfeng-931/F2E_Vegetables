@@ -133,13 +133,16 @@ a h4{
 .right-p-content{
     background-color: #F7FBDA;
     padding:2.5% 16px;
+    height: 70%;
 }
 
 .right-p-content p{
     font-size: 12px;
     line-height: 20px;
-    padding: 4px 0;
     color: #7D7D7D;
+}
+hr{
+    margin: 4px 0;
 }
 
 footer{
