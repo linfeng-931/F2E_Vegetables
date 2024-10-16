@@ -3,11 +3,11 @@
 }
 *{
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 body{
     font-family: "Noto Sans";
-    box-sizing: border-box;
     background-color: #EDF2C5;
     height: 100vh;
     min-width: 375px;
@@ -21,6 +21,7 @@ body{
     font-size: 2.75rem;
     font-weight: 900;
     margin-left: 0;
+    margin-bottom: 10px;
 }
 .botton{
     display:flex;
@@ -91,7 +92,7 @@ a h4{
 .content-right, .content-left{
     width: 48%;
     margin:0;
-    max-height: 12.5rem;
+    height: 12.5rem;
     margin-bottom: 2rem;
     min-width: 307.5px;
 }
@@ -100,7 +101,7 @@ a h4{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 4.5rem;
+    margin-bottom: 15%;
 }
 
 .head-container{
@@ -110,7 +111,9 @@ a h4{
     line-height: 100%;
     margin-bottom: 1.5rem;
 }
-
+#first{
+    margin-left: 0;
+}
 
 .title-container{
     height: 24px;
@@ -129,7 +132,7 @@ a h4{
 
 .right-p-content{
     background-color: #F7FBDA;
-    padding:3% 16px;
+    padding:2.5% 16px;
 }
 
 .right-p-content p{
@@ -137,7 +140,6 @@ a h4{
     line-height: 20px;
     padding: 4px 0;
     color: #7D7D7D;
-
 }
 
 footer{
